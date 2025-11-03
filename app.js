@@ -151,3 +151,101 @@ for(let a = 1;a<=10;a++){
 
 console.log(fec)
 
+
+
+
+// Print numbers from 1 to 10 Loop from 1 to 10 and print each number.
+
+for(let i = 1;i<=10;i++){
+    console.log(i+'---')
+}
+
+
+
+// Print only even numbers from 1 to 20 Use a loop and condition to print only even ones.
+
+for(let i = 1; i<=20;i++){
+    if(i%2==0){
+        console.log(i)
+    }
+}
+
+
+
+// Print numbers from 10 to 1 Reverse loop with a decrement.
+
+for(let i = 10 ; i>0;i--){
+    console.log(i)
+}
+
+
+
+// Print the word "Yes" 5 times Repeat using a loop.
+
+for(let i = 1 ; i<=5; i++){
+    console.log(`${i} Yes`)
+}
+
+
+// Print whether numbers from 1 to 10 are even or odd For each number, check: even → "Even", else → "Odd"
+
+for(let i=1; i<=10;i++){
+    if(i % 2 == 0){
+        console.log(`Even number ${i}`)
+    }else{
+        console.log(`ODD number ${i}`)
+
+    } 
+}
+
+
+
+// Ask user for a number and say if it's positive or negative Use prompt) and a conditional.
+
+
+// let num = prompt('Number btao')
+// num= parseInt(num)
+// if(num >= 0){
+//     console.log('Positive')
+// }
+// else{
+//     console.log("Nagitive")
+// }
+
+
+
+
+
+// AGE
+
+let age = 18;
+age = parseInt(age)
+
+let c = prompt("Age Btao");
+
+if(c === null){
+    console.log("Button glat press kiya h")
+}else{
+
+    if(c.trim() === ''){
+        console.log('B*** shhai likhh na')
+    }
+    else{
+        c=Number(c.trim());
+        if(isNaN(c)){
+            console.log("Bhai number dede yrr")
+        }
+        else{
+            if(c >= age){
+                console.log('Age Ok')
+            }
+        
+            else{
+                console.log("Age km h")
+            }
+        }
+    }
+}
+
+
+
