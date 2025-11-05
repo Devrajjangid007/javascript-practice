@@ -218,33 +218,69 @@ for(let i=1; i<=10;i++){
 
 // AGE
 
-let age = 18;
-age = parseInt(age)
+// let age = 18;
+// age = parseInt(age)
 
-let c = prompt("Age Btao");
+// let c = prompt("Age Btao");
 
-if(c === null){
-    console.log("Button glat press kiya h")
-}else{
+// if(c === null){
+//     console.log("Button glat press kiya h")
+// }else{
 
-    if(c.trim() === ''){
-        console.log('B*** shhai likhh na')
-    }
-    else{
-        c=Number(c.trim());
-        if(isNaN(c)){
-            console.log("Bhai number dede yrr")
-        }
-        else{
-            if(c >= age){
-                console.log('Age Ok')
-            }
+//     if(c.trim() === ''){
+//         console.log('B*** shhai likhh na')
+//     }
+//     else{
+//         c=Number(c.trim());
+//         if(isNaN(c)){
+//             console.log("Bhai number dede yrr")
+//         }
+//         else{
+//             if(c >= age){
+//                 console.log('Age Ok')
+//             }
         
-            else{
-                console.log("Age km h")
-            }
-        }
-    }
+//             else{
+//                 console.log("Age km h")
+//             }
+//         }
+//     }
+// }
+
+
+
+
+
+
+
+
+
+
+// 7. Ask user’s age and check if eligible to vote If age >= 18 → “Eligible”, else → “Not eligible”
+
+// let age = prompt("Age braao")
+
+// if(age === null){
+//     console.log("Cancel Press mt kro")
+// }
+// else if(age.trim() === ""){
+//     console.log("Ok Press mt kro")
+// }
+// else{
+//     age = Number(age)
+//     if(age >= 18){
+//         console.log("Vote kr skte ho")
+//     }else{
+//         console.log("Vote nhi kr skte ho")
+//     }
+// }
+
+
+
+
+// Print multiplication table of 5 Use loop to print 5 × 1 to 5 × 10.
+for(let i = 1;i<=10;i++){
+    console.log( `5 * ${i} = ${i*5}`)
 }
 
 
@@ -253,4 +289,62 @@ if(c === null){
 
 
 
-console.log("hey")
+// Count how many numbers between 1 and 15 are greater than 8 Loop and count conditionally.
+
+let counter = 0;
+
+for(let i = 1 ; i <= 16; i++){
+    if(i > 8){
+        counter++
+    }
+}
+console.log(counter)
+
+
+
+
+
+// Ask user for password and print access status Hardcoded correct password. Compare with user input.
+// let password = "dev";
+// let says = prompt("Password")
+
+// if(says === null){
+//     console.log("press cansel");
+// }else if(says.trim() === ''){
+//     console.log("press ok");
+// }
+// else{
+//     if(says=== password){
+//         console.log("Ok password")
+//     }else{
+//         console.log("password wrong")
+//     }
+// }
+
+
+
+
+
+
+// Allow only 3 attempts to enter correct password If user gets it right early, stop. If not → “Account locked”
+
+
+let attempt = 0
+let password = "dev";
+let says = prompt("Password")
+
+
+attempt++
+while(says !== password){
+    if(attempt === 3){
+        console.log('Account locked and bha** m jaao')
+        break
+    }
+    says = prompt("Wrong Password try again")
+    console.log(says)
+    attempt++
+}
+
+
+
+
