@@ -329,22 +329,53 @@ console.log(counter)
 // Allow only 3 attempts to enter correct password If user gets it right early, stop. If not → “Account locked”
 
 
-let attempt = 0
-let password = "dev";
-let says = prompt("Password")
+// let attempt = 0
+// let password = "dev";
+// let says = prompt("Password")
 
 
-attempt++
-while(says !== password){
-    if(attempt === 3){
-        console.log('Account locked and bha** m jaao')
-        break
-    }
-    says = prompt("Wrong Password try again")
-    console.log(says)
-    attempt++
+// attempt++
+// while(says !== password){
+//     if(attempt === 3){
+//         console.log('Account locked and bha** m jaao')
+//         break
+//     }
+//     says = prompt("Wrong Password try again")
+//     console.log(says)
+//     attempt++
+// }
+
+
+
+
+
+function accd(){
+    console.log("Hello Dev Accde")
 }
 
+accd()
 
 
+
+function dev(a,b){
+    console.log(a + b)
+}
+
+dev(10,10)
+
+
+
+function hey(guist = 'guist'){
+    console.log(`Hey ${guist}`)
+}
+hey()
+
+
+
+let frout = ['apple','mango','banana']
+
+frout.push("dsd")
+frout.unshift("dsd")
+
+console.log(frout.length)
 
