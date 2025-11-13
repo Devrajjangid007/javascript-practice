@@ -379,3 +379,65 @@ frout.unshift("dsd")
 
 console.log(frout.length)
 
+
+
+
+
+
+
+// Start dom 
+// dom ke 4 piller hota h 
+
+// html selecter
+// html change
+// html text change
+// event lisner
+
+
+
+let h1 = document.querySelector('h1')
+let p = document.querySelector('p')
+let plus = document.querySelector('.plus')
+let min = document.querySelector('.min')
+
+h1.style.color='gold'
+h1.style.fontWeight='900'
+
+
+
+// h1.innerHTML='Changed'
+
+
+h1.addEventListener('click', function(){
+    console.log('CLicked')
+})
+
+let count = 0;
+plus.addEventListener('click', function(){
+    if(count< 10){
+        count++
+        h1.innerHTML = count
+
+        if(count === 10){
+            p.innerHTML='Limit Cross'
+        }
+    }
+    
+    
+     
+})
+
+min.addEventListener('click', function(){
+    if(count > 0){
+    count--
+        h1.innerHTML = count
+        if(count < 10){
+
+            p.innerHTML=''
+       
+        }
+    }
+   
+    })
+    
+
