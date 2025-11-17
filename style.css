@@ -13,6 +13,7 @@ h1{
     color:#fff;
     font-size: 60px;
     font-weight: 600;
+    margin-left: 10px;
 }
 
 
@@ -35,5 +36,24 @@ button{
     align-items: center;
 }
 p {
+    color: #fff;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+.change{
+    cursor: pointer;
+    margin-left: 10px;
+    width: 200px;
+    font-size: 20px;
+}
+.change:active{
+    scale: 0.97;
+    background-color: #000;
     color: #fff;
 }
