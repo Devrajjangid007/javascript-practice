@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body,html{
+            width: 100%;
+            height: 100%;
+        }
+        body{
+            background-color: #000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        main{
+            width: 100%;
+            max-width: 800px;
+            background-color: #fff;
+            border-radius: 10px;
+            padding: 10px 20px;
+        }
+        .btn{
+            border: 0;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            padding: 5px 10px;
+            background-color: green;
+            color: #fff;
+            border-radius: 5px;
+            font-size: 22px;
+            font-weight: 600;
+        }
+        .num{
+            font-size: 28px;
+            font-weight: 600;
+        }
+        .fot-bottom{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+        .progress{
+            height: 20px;
+            border-radius: 50px;
+            background-color: rgb(203, 203, 203);
+            width: 100%;
+            margin-top: 20px;
+        }
+        .inner_pro{
+            height: 100%;
+            background-color: green;
+            width: 0%;
+            border-radius: 50px;
+        }
+        .text{
+            font-size: 22px;
+        }
+    </style>
+</head>
+<body>
+
+
+    <main>
+        <div class="box">
+            <div class="text">Click on the button below to download song.mp3 file</div>
+            <div class="progress">
+                <div class="inner_pro"></div>
+            </div>
+            <div class="fot-bottom">
+                <div class="num">0%</div>
+                <button class="btn">Download</button>
+            </div>
+        </div>
+
+    </main>
+
+
+
+    <script>
+        let grow = 0 ;
+        let btn = document.querySelector('.btn')
+        let pro = document.querySelector('.inner_pro')
+        let num = document.querySelector('.num')
+
+
+        btn.addEventListener('click', function(){
+            let time =10+ Math.floor(Math.random()*10)
+
+            let int = setInterval(function(){
+                grow++
+                // console.log(grow);
+                num.innerHTML=`${grow}%`
+                pro.style.width=`${grow}%`
+                btn.style.pointerEvents=`none`
+                btn.style.opacity=`0.5`
+                // console.log(time)
+                
+            },time)
+
+            setTimeout(function(){
+                clearInterval(int)
+
+            },time*100)
+            
+            
+        })
+    </script>
+    
+</body>
+</html>
