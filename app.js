@@ -535,3 +535,35 @@ if(num % 2 === 0)
     if (null == undefined);
     // true
         //Loose equality (==) mein JavaScript null aur undefined ko equal maanta hai.
+
+
+
+
+         x = 5; 
+        if (x > 3 && x < 10) 
+            { console.log('Yes'); } 
+            else { console.log('No'); }
+            // yes
+
+
+            
+if ('') 
+    { console.log('A'); } 
+    else { console.log('B'); } 
+    //b
+
+
+    if (NaN) 
+        { console.log('A'); } 
+        else { console.log('B'); } 
+
+
+
+        a = 10, b = 20; if(a = b) 
+            { console.log('Equal'); }
+
+
+
+        let z = 0; 
+        if (z++) { console.log('A'); } 
+        else { console.log('B'); }
