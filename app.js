@@ -511,3 +511,27 @@ if(false) console.log(1); console.log(2);
 
 if([]);
 // true
+// JavaScript mein empty array [] ek object hota hai aur objects hamesha truthy hote hain.
+
+
+if({});
+//Jaise empty array truthy hota hai, waise hi empty object {} bhi truthy maana jata hai.
+
+
+
+
+let num = 15; 
+if(num % 2 === 0) 
+    { console.log('A'); } 
+    else { console.log('B'); }
+    //b
+
+
+    if (null === undefined);
+    // false
+    //Kyunki hum strict equality (===) use kar rahe hain, null aur undefined ka data type alag hota hai isliye condition false hogi.
+
+
+    if (null == undefined);
+    // true
+        //Loose equality (==) mein JavaScript null aur undefined ko equal maanta hai.
