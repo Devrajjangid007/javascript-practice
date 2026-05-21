@@ -456,3 +456,8 @@ min.addEventListener('click', function(){
         box.style.backgroundColor = `rgb(${c1} , ${c2} , ${c3} )`
 
     })
+
+
+
+
+    // hey date 21-5-26
