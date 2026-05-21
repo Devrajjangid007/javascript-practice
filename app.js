@@ -471,3 +471,11 @@ if (cartTotal >= 1000) {
 } else {
   console.log("Delivery charge 100 Rs lagega.");
 }
+
+
+
+let x = 10; 
+if(x > 5) 
+{ console.log('Hi'); }
+
+// answer hii
