@@ -479,3 +479,17 @@ if(x > 5)
 { console.log('Hi'); }
 
 // answer hii
+
+
+
+// JavaScript mein inmein se kaunsa value 'falsy' (false ke barabar) nahi hai?
+// 'false'
+
+
+
+
+let y; 
+if(y) 
+    { console.log(1); } 
+else { console.log(2); } 
+// ka output kya hoga? 2
