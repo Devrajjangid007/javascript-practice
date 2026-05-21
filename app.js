@@ -461,3 +461,13 @@ min.addEventListener('click', function(){
 
 
     // hey date 21-5-26
+
+    let cartTotal = 500;
+
+if (cartTotal >= 1000) {
+  console.log("Free Shipping mil gayi!");
+} else if (cartTotal >= 500) {
+  console.log("Aapko 50% delivery discount milega.");
+} else {
+  console.log("Delivery charge 100 Rs lagega.");
+}
