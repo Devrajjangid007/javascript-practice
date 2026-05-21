@@ -493,3 +493,21 @@ if(y)
     { console.log(1); } 
 else { console.log(2); } 
 // ka output kya hoga? 2
+
+
+
+if (5 == '5') { console.log('A'); } else { console.log('B'); }
+//a
+
+if (5 === '5') { console.log('A'); } else { console.log('B'); }
+// b
+
+a = true; if(!a) { console.log('Yes'); } else { console.log('No'); }
+// no
+
+
+if(false) console.log(1); console.log(2);
+//2
+
+if([]);
+// true
