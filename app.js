@@ -567,3 +567,6 @@ if ('')
         let z = 0; 
         if (z++) { console.log('A'); } 
         else { console.log('B'); }
+
+
+        //new day start
