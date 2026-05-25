@@ -570,7 +570,3 @@ if ('')
 
 
         //new day start
-
-
-
-        
