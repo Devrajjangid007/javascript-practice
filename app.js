@@ -350,7 +350,7 @@ console.log(counter)
 
 
 function accd(){
-    console.log("Hello Dev Accde")
+    console.log("Hello Dev function run done")
 }
 
 accd()
@@ -409,7 +409,7 @@ h1.style.fontWeight='900'
 
 
 h1.addEventListener('click', function(){
-    console.log('CLicked')
+    console.log('CLicked Ok')
 })
 
 let count = 0;
