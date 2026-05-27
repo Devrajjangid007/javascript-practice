@@ -350,7 +350,7 @@ console.log(counter)
 
 
 function accd(){
-    console.log("Hello Dev function run done")
+    console.log("Hello Dev Accde")
 }
 
 accd()
@@ -409,7 +409,7 @@ h1.style.fontWeight='900'
 
 
 h1.addEventListener('click', function(){
-    console.log('CLicked Ok')
+    console.log('CLicked')
 })
 
 let count = 0;
@@ -467,9 +467,9 @@ min.addEventListener('click', function(){
 if (cartTotal >= 1000) {
   console.log("Free Shipping mil gayi!");
 } else if (cartTotal >= 500) {
-  console.log("Aapko 50% delivery discount milega. Not ok");
+  console.log("Aapko 50% delivery discount milega.");
 } else {
-  console.log("Delivery charge 100 Rs lagega. Ok");
+  console.log("Delivery charge 100 Rs lagega.");
 }
 
 
@@ -570,3 +570,4 @@ if ('')
 
 
         //new day start
+        
