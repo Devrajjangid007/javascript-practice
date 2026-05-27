@@ -350,7 +350,7 @@ console.log(counter)
 
 
 function accd(){
-    console.log("Hello Dev Accde")
+    console.log("Hello Dev function run done")
 }
 
 accd()
@@ -467,9 +467,9 @@ min.addEventListener('click', function(){
 if (cartTotal >= 1000) {
   console.log("Free Shipping mil gayi!");
 } else if (cartTotal >= 500) {
-  console.log("Aapko 50% delivery discount milega.");
+  console.log("Aapko 50% delivery discount milega. Not ok");
 } else {
-  console.log("Delivery charge 100 Rs lagega.");
+  console.log("Delivery charge 100 Rs lagega. Ok");
 }
 
 
@@ -570,4 +570,3 @@ if ('')
 
 
         //new day start
-        
