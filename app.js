@@ -536,7 +536,7 @@ if(num % 2 === 0)
 
     if (null == undefined);
     // true
-        //Loose equality (==) mein JavaScript null aur undefined ko equal maanta hai.
+        //Loose equality (==) mein JavaScript null aur undefined ko equal maanta hai OK.
 
 
 
@@ -546,6 +546,8 @@ if(num % 2 === 0)
             { console.log('Yes'); } 
             else { console.log('No'); }
             // yes
+
+
 
 
             
