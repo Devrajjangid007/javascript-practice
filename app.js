@@ -479,7 +479,6 @@ if (cartTotal >= 1000) {
 let x = 10; 
 if(x > 5) 
 { console.log('Hi'); }
-
 // answer hii
 
 
@@ -501,8 +500,10 @@ else { console.log(2); }
 if (5 == '5') { console.log('A'); } else { console.log('B'); }
 //a
 
+
 if (5 === '5') { console.log('A'); } else { console.log('B'); }
 // b
+
 
 a = true; if(!a) { console.log('Yes'); } else { console.log('No'); }
 // no
@@ -511,13 +512,16 @@ a = true; if(!a) { console.log('Yes'); } else { console.log('No'); }
 if(false) console.log(1); console.log(2);
 //2
 
+
 if([]);
 // true
 // JavaScript mein empty array [] ek object hota hai aur objects hamesha truthy hote hain.
 
 
+
 if({});
 //Jaise empty array truthy hota hai, waise hi empty object {} bhi truthy maana jata hai.
+
 
 
 
