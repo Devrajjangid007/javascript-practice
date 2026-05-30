@@ -621,11 +621,22 @@ if ('')
 
 
 
-let dsum = 0
+// let dsum = 0
 
-for(let i = 1 ; i<50 ; i++){
-    if(i%2 !== 1){
-        dsum = dsum + i
-    }
-}
-console.log(dsum)
+// for(let i = 1 ; i<50 ; i++){
+//     if(i%2 !== 1){
+//         dsum = dsum + i
+//     }
+// }
+// console.log(dsum)
+
+
+
+
+// let numb = prompt('Number bolo')
+// numb = Number(numb)
+
+// while(numb % 2 !== 0){
+//     numb = prompt('Number bolo')
+// numb11 = Number(numb)
+// }
