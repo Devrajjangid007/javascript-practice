@@ -578,3 +578,16 @@ if ('')
 
 
         //new day start
+
+
+let password = "devraj"
+let useroass = prompt('pass btao')
+let attempt = 0;
+
+while(password !== useroass){
+
+    if(attempt === 3) break;
+    attempt++;
+    useroass = prompt('pass btao')
+
+}
