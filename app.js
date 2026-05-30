@@ -618,3 +618,14 @@ if ('')
 //     }
 // }
 
+
+
+
+let dsum = 0
+
+for(let i = 1 ; i<50 ; i++){
+    if(i%2 !== 1){
+        dsum = dsum + i
+    }
+}
+console.log(dsum)
