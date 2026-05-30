@@ -610,3 +610,11 @@ if ('')
 
 // console.log(dcounter)
 
+
+
+// for(let i = 1 ; i<51 ; i++){
+//     if(i%14 === 0 ){
+//         console.log(i)
+//     }
+// }
+
