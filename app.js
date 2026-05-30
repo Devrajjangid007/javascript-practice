@@ -580,14 +580,18 @@ if ('')
         //new day start
 
 
+let attempt = 0;
 let password = "devraj"
 let useroass = prompt('pass btao')
-let attempt = 0;
+attempt ++;
 
 while(password !== useroass){
 
-    if(attempt === 3) break;
-    attempt++;
+    if(attempt === 3) {
+        console.error('Account Locked')
+        break
+    };
     useroass = prompt('pass btao')
+    attempt++;
 
 }
