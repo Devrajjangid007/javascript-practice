@@ -640,3 +640,17 @@ if ('')
 //     numb = prompt('Number bolo')
 // numb11 = Number(numb)
 // }
+
+
+
+
+// let start = +prompt('Start')
+// let end = +prompt('End')
+
+// if(start > end){
+//     console.error("Wrong")
+// }
+
+// for(let i = start; i<end+1 ; i++ ){
+//     console.log(i)
+// }
