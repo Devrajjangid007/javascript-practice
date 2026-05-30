@@ -580,18 +580,33 @@ if ('')
         //new day start
 
 
-let attempt = 0;
-let password = "devraj"
-let useroass = prompt('pass btao')
-attempt ++;
+// let attempt = 0;
+// let password = "devraj"
+// let useroass = prompt('pass btao')
+// attempt ++;
 
-while(password !== useroass){
+// while(password !== useroass){
 
-    if(attempt === 3) {
-        console.error('Account Locked')
-        break
-    };
-    useroass = prompt('pass btao')
-    attempt++;
+//     if(attempt === 3) {
+//         console.error('Account Locked')
+//         break
+//     };
+//     useroass = prompt('pass btao')
+//     attempt++;
 
-}
+// }
+
+
+
+// let word = prompt('Word bolo')
+// let dcounter = 0;
+
+// while(word !== 'stop' ){
+//     if(word === 'yes'){
+//         dcounter++
+//     }
+//     word = prompt('Word bolo')
+// }
+
+// console.log(dcounter)
+
