@@ -544,13 +544,11 @@ if(num % 2 === 0)
 
 
 
-
          x = 5; 
         if (x > 3 && x < 10) 
             { console.log('Yes'); } 
             else { console.log('No'); }
             // yes
-
 
 
 
@@ -577,7 +575,6 @@ if ('')
         else { console.log('B'); }
 
 
-        //new day start
 
 
 // let attempt = 0;
@@ -654,4 +651,5 @@ if ('')
 // for(let i = start; i<end+1 ; i++ ){
 //     console.log(i)
 // }
+
 
