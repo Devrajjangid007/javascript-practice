@@ -550,6 +550,7 @@ if(num % 2 === 0)
             else { console.log('No'); }
             // yes
 
+            // just start learning
 
 
             
