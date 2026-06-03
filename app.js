@@ -665,3 +665,25 @@ if ('')
 // }
 
 
+
+
+let atm = 0
+let pass = 'dev'
+
+let puch = prompt('Password btaa')
+
+
+while(puch !== pass){
+
+    if(atm === 3){
+        console.error('Not login')
+        break
+    }
+
+    atm++
+
+    
+
+
+    puch = prompt('Password btaa')
+}
