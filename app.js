@@ -668,22 +668,19 @@ if ('')
 
 
 let atm = 0
-let pass = 'dev'
 
-let puch = prompt('Password btaa')
+let pass = "devraj"
 
-
+let puch = prompt("Password bta")
+atm++
 while(puch !== pass){
-
     if(atm === 3){
-        console.error('Not login')
+        console.error('login faild Boss')
         break
     }
+puch = prompt("Password bta")
 
-    atm++
-
-    
+atm++
 
 
-    puch = prompt('Password btaa')
 }
