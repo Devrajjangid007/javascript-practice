@@ -667,20 +667,17 @@ if ('')
 
 
 
-let atm = 0
 
-let pass = "devraj"
+let word = prompt('word bol');
+let dc = 0
+let rw = "stop"
 
-let puch = prompt("Password bta")
-atm++
-while(puch !== pass){
-    if(atm === 3){
-        console.error('login faild Boss')
-        break
+
+while(word !== 'stop'){
+    if(word === 'yes'){
+        dc++
     }
-puch = prompt("Password bta")
-
-atm++
-
-
+    word = prompt('word bol');
 }
+
+console.log(dc + "Totla")
