@@ -666,18 +666,3 @@ if ('')
 
 
 
-
-
-let word = prompt('word bol');
-let dc = 0
-let rw = "stop"
-
-
-while(word !== 'stop'){
-    if(word === 'yes'){
-        dc++
-    }
-    word = prompt('word bol');
-}
-
-console.log(dc + "Totla")
