@@ -607,20 +607,7 @@ if ('')
 
 
 
-let att = 0
-let pass = "devraj";
-let bol = prompt('Word bolo')
 
-
-att++
-
-while(bol !== pass){
-    if(att === 3){
-        break
-    }
-    bol = prompt('Word bolo')
-    att++
-}
 
 
 
@@ -699,4 +686,17 @@ while(bol !== pass){
 
 
 
+
+let wo = prompt('kuch bol');
+let con = 0
+
+
+while(wo !== "stop"){
+    if(wo === "yes"){
+        con++
+    }
+    wo = prompt('kuch bol');
+}
+
+console.log(con)
 
