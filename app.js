@@ -607,6 +607,26 @@ if ('')
 
 
 
+let att = 0
+let pass = "devraj";
+let bol = prompt('Word bolo')
+
+
+att++
+
+while(bol !== pass){
+    if(att === 3){
+        break
+    }
+    bol = prompt('Word bolo')
+    att++
+}
+
+
+
+
+
+
 // let word = prompt('Word bolo')
 // let dcounter = 0;
 
@@ -621,11 +641,20 @@ if ('')
 
 
 
+
+
+
+
+
+
 // for(let i = 1 ; i<51 ; i++){
 //     if(i%14 === 0 ){
 //         console.log(i)
 //     }
 // }
+
+
+
 
 
 
@@ -665,6 +694,9 @@ if ('')
 // for(let i = start; i<end+1 ; i++ ){
 //     console.log(i)
 // }
+
+
+
 
 
 
